@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý người dùng</title>
+    <link rel="stylesheet" href="mngsysstyle.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Admin</h2>
+        <div class="profile">
+            <img src="https://scontent.fsgn5-2.fna.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-png_s200x200&_nc_cat=1&ccb=1-7&_nc_sid=136b72&_nc_ohc=atpU7uoQTskQ7kNvgGzdGDD&_nc_zt=24&_nc_ht=scontent.fsgn5-2.fna&_nc_gid=AYo3J7nn5gtfedrpKKnAUF4&oh=00_AYCaLGKfiRxLX4IKPN-GSCC54TIkUcJxFo4e0Oco9P8Agw&oe=6752BBBA" alt="Admin" class="profile-img">
+            <p>Admin</p>
+            <p class="status">Online</p>
+        </div>
+        <nav class="menu">
+            <a href="#">Trang chủ</a>
+            <a href="http://127.0.0.1:5500/admin/blabla/quanlykh.html">Khách hàng</a>
+            <a href="#">Sản phẩm</a>
+            <a href="#">Quản lý đơn hàng</a>
+        </nav>
+    </div>
+    <h1>Quản lý người dùng</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Tên</th>
+            <th>Email</th>
+            <th>Trạng thái</th>
+            <th>Hành động</th>
+        </tr>
+        <!-- Ví dụ hiển thị một vài người dùng -->
+        <tr>
+            <td>1</td>
+            <td>Nguyễn Văn A</td>
+            <td>a@gmail.com</td>
+            <td>Hoạt động</td>
+            <td>
+                <button class="btn" onclick="window.location.href='edit.php?id=1'">Sửa</button>
+                <button class="btn" onclick="window.location.href='lock.php?id=1'">Khoá</button>
+            </td>
+        </tr>
+        <!-- Thêm các dòng khác cho từng người dùng -->
+    </table>
+</body>
+</html>

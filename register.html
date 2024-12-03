@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="assets/css/styleregister.css">
+</head>
+<body>
+  <div class="login-overlay">
+    <div class="login-container">
+      <button class="close-button" onclick="closeForm()">×</button>
+      <h2>ĐĂNG KÝ TÀI KHOẢN </h2>
+      <form id="registerForm">
+        <input type="text" id="fullname" placeholder="Họ và Tên" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="address" id="address" placeholder="Địa chỉ" required>
+        <input type="password" id="password" placeholder="Mật khẩu" required>
+	    	
+  
+        <button type="submit" class="submit-button">TẠO TÀI KHOẢN</button>
+      </form>
+      <div class="or">hoặc đăng ký bằng</div>
+      <div class="social-buttons">
+        <button class="google-button">Google</button>
+        <button class="facebook-button">Facebook</button>
+      </div>
+      <p class="login-link">Bạn đã có tài khoản? <a href="login.html">Đăng nhập!</a></p>
+    </div>
+  </div>
+  <a href="index.html">Trở về trang chủ</a>
+  <script src="assets/js/register.js"></script>
+</body>
+</html>
